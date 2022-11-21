@@ -23,7 +23,7 @@ button.btn:hover {
 /* YLEINEN */
 
 body {
-  background-image: url("./Kuvat/Tausta/TAUSTAKUVALOWRES.JPG");
+  background-image: url("./Kuvat/Tausta/TaustakuvaLOWRES.JPG");
   margin: 0px;
   display: flex;
   flex-direction: column;
