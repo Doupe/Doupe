@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <title>Yhteystiedot | Akseli Vaheristo</title>
-  <link rel="icon" href="Kuvat/av-LOGO.png"></link>
+  <link rel="icon" href="Kuvat/av-LOGO.png">
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,33 +18,30 @@
 <!--NAVIGAATIOPALIKKA-->
 
 <nav class="navbar navbar-secondary">
- <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" "aria-expanded="false">
-	  <div class="dropdown">
-     <img src="Kuvat/av-LOGO.png" height="53" alt="LOGO1">
-       <span class="caret"></span>
-    </button>
-	Yhteystiedot
-		<ul class="dropdown-menu" role="menu" aria-labelledby="menu1" >
+		<span id="dropdown" class="dropdown"></span>
+			<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+			<img src="Kuvat/av-LOGO.png" height="53" alt="LOGO1">
+		<span class="caret"></span>
+			</button>
+	Etusivu
+		<ul class="dropdown-menu" role="menu">
 			<li role="presentation"><a role="menuitem" tabindex="-1" href="Index.html">Etusivu</a></li>
 			<li role="presentation"><a role="menuitem" tabindex="-1" href="Yhteystiedot.html">Yhteystiedot</a></li>
 			<li role="presentation"><a role="menuitem" tabindex="-1" href="Valokuvat.html">Valokuvat</a></li>
 			<li role="presentation"><a role="menuitem" tabindex="-1" href="Muuta.html">Muuta</a></li>
 		</ul>
-	
-	
+		
+
 	<!--HAKUPALKKI-->
-		<form action="http://www.google.com/search" method="get" class="navbar-form pull-right" role="search" target="_blank" id="haku">	
+	<form action="http://www.google.com/search" method="get" class="navbar-form pull-right" role="search" target="_blank" id="haku">	
             <div class="input-group">	
-            <input type="text" name="q" class="form-control" placeholder="Hae Googlesta">
+            <input type="text" name="q" class="form-control" placeholder="Hae Googlesta"> 
             <div class="input-group-btn">
             <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-	</div>
-	</form>
-	</div>
-	</div>
-	</div>
-	</nav>
+			</div>
+			</div>
+		</form>
+</nav>
 </header>
 
 <!--JUMBOTRON - YHTEYS-->
@@ -58,16 +55,17 @@
                       <div class="col-md-8 col-xs-12 col-sm-6 col-lg-8">
                           <div class="container">
                             <h2 id="otsikko2">Akseli Vaheristo</h2>
-							<hr id="hrnosto">
+							<hr class="hrnosto">
                           </div>
                           <ul class="container details">
-                            <li><p id="yhteystieto"><strong><span class="glyphicon glyphicon-envelope one" style="width:50px;"></span><a href="mailto:avaheristo@gmail.com" target="_newtab">Avaheristo@gmail.com</a></strong></p></li>
-                            <li><p id="yhteystieto"><strong><span class="glyphicon glyphicon-earphone one" style="width:50px;"></span> +358445499467</p></strong></li>
-                            <li><p id="yhteystieto"><strong><span class="glyphicon glyphicon-new-window one" style="width:50px;"></span><a href="https://vaheristo.wordpress.com" target="_blank">Portfolio</p></strong></a>
+                            <li><p class="yhteystieto"><span class="glyphicon glyphicon-envelope one" style="width:50px;"></span><strong><a href="mailto:avaheristo@gmail.com" target="_blank">Avaheristo@gmail.com</a></strong></p></li>
+                            <li><p class="yhteystieto"><span class="glyphicon glyphicon-earphone one" style="width:50px;"></span><strong> +358445499467</strong></p></li>
+                            <li><p class="yhteystieto"><span class="glyphicon glyphicon-new-window one" style="width:50px;"></span><strong><a href="https://vaheristo.wordpress.com" target="_blank">Portfolio</a></strong></p></li>
                           </ul>
                       </div>
                   </div>
                 </div>
+			</div>
 
 <!--SOMENAPIT & FOOTER-->
         

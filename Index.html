@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <title>Etusivu | Akseli Vaheristo</title>
-  <link rel="icon" href="Kuvat/av-LOGO.png"></link>
+  <link rel="icon" href="Kuvat/av-LOGO.png">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,14 +19,13 @@
 <!--NAVIGAATIOPALIKKA-->
 	
 <nav class="navbar navbar-secondary">
-    <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-	  <div class="dropdown">
-     <img src="Kuvat/av-LOGO.png" height="53" alt="LOGO1">
-       <span class="caret"></span>
-    </button>
+		<span id="dropdown" class="dropdown"></span>
+			<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+			<img src="Kuvat/av-LOGO.png" height="53" alt="LOGO1">
+		<span class="caret"></span>
+			</button>
 	Etusivu
-		<ul class="dropdown-menu" role="menu" aria-labelledby="menu1" >
+		<ul class="dropdown-menu" role="menu">
 			<li role="presentation"><a role="menuitem" tabindex="-1" href="Index.html">Etusivu</a></li>
 			<li role="presentation"><a role="menuitem" tabindex="-1" href="Yhteystiedot.html">Yhteystiedot</a></li>
 			<li role="presentation"><a role="menuitem" tabindex="-1" href="Valokuvat.html">Valokuvat</a></li>
@@ -37,15 +36,13 @@
 	<!--HAKUPALKKI-->
 	<form action="http://www.google.com/search" method="get" class="navbar-form pull-right" role="search" target="_blank" id="haku">	
             <div class="input-group">	
-            <input type="text" name="q" class="form-control" placeholder="Hae Googlesta">
+            <input type="text" name="q" class="form-control" placeholder="Hae Googlesta"> 
             <div class="input-group-btn">
             <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-	</div>
-	</form>
-	</div>
-	</div>
-	</div>
-	</nav>
+			</div>
+			</div>
+		</form>
+</nav>
 </header>
 
 <!--VASEN REUNA-->
@@ -55,10 +52,10 @@
     <div class="row">
     <div class="col-md-6">
 	<div class="well">
-			<hr id="hrnosto">
+			<hr class="hrnosto">
 		<h2>Valokuvaus</h2>
 		<p>Olen tehnyt valokuvaamista osa-aikaisena työnäni jo yli kolmen vuoden ajan, joten tuntuikin luonnolliselta rakentaa myös jonkinlainen sivusto tämän aihepiirin ympärille.</p>
-			<hr id="hrnosto"><br>
+			<hr class="hrnosto"><br>
 	</div>
 		<img src="Kuvat/Etusivu/Kuvavasen.JPG" class="img-responsive center-block" id="ylempikuva" alt="Responsive image">
     </div>
@@ -69,10 +66,10 @@
     <div class="col-md-6">
 		<img src="Kuvat/Etusivu/Kuvaoikea.JPG" class="img-responsive center-block" id="alempikuva" alt="Responsive image">
 		<div class="well">
-			<br><hr id="hrnosto">
+			<br><hr class="hrnosto">
 		<h2>Katukuvaus</h2>
 		<p>Perinteisen tapahtuma- ja juhlakuvaamisen lisäksi olen intohimoinen katuvalokuvaaja, ja näitä kuvia minulta löytyykin melko paljon. Tälle sivulle laitankin muutamia esimerkkejä kuvistani.</p>
-			<hr id="hrnosto">
+			<hr class="hrnosto">
 		</div>
 	</div>
   </div>

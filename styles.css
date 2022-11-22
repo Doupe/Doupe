@@ -17,8 +17,6 @@ button.btn:hover {
 	padding-right: 25px;
 	padding-top: 8px;
 }
-	
-
 
 /* YLEINEN */
 
@@ -63,16 +61,25 @@ h2 {
 	margin-right: auto;
 	padding-bottom: 20px;
 }
-#valokuvat {
-	padding: 0px;
+.hrnosto {
+	padding: 1px;
 }
+
+/* ETUSIVU */
 #ylempikuva {
 	padding-bottom: 5px;
 }
 #alempikuva {
 	padding-bottom: 20px;
 }
-
+#jumbotron2 {
+	margin-bottom: auto;
+	color: black;
+	font-family: lato;
+	display: flex;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
 /* YHTEYSTIETOSIVU */
 
@@ -87,11 +94,24 @@ h2 {
 	margin-right: auto;
 	padding-bottom: 0px;
 }
-#yhteystieto {
+.yhteystieto {
 	text-align: justify;
 	padding: 5px;
 	color: black;
 }
+
+/* VALOKUVAT */
+
+.valokuvat {
+	padding: 0px;
+}
+
+/* MUUTA */
+
+.embed-responsive-item {
+	padding: 0px;
+}
+
 /* SOMENAPIT - WRAPPER */
 
 .wrapper {
@@ -134,15 +154,5 @@ h2 {
 	color: white;
 	font-family: lato;
 }
-#jumbotron2 {
-	margin-bottom: auto;
-	color: black;
-	font-family: lato;
-	display: flex;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-#hrnosto {
-	padding: 1px;
-}
+
 
