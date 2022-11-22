@@ -107,13 +107,13 @@ h2 {
   transition: all ease-in-out 150ms;
 }
 .wrapper a:nth-child(1) {
-	color: #4867AA; 
+	color: #fafafa; 
 }
 .wrapper a:nth-child(2) {
-	color: #4867AA;
+	color: #0077b5;
 }
 .wrapper a:nth-child(3) {
-	color: #4867AA;
+	color: #cd486b;
 }
 .wrapper i:hover {
   margin-top: -3px;
